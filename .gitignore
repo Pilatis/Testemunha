@@ -1,0 +1,21 @@
+# Build
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+
+# Arquivo local com o caminho do Android SDK desta máquina
+local.properties
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Sistema
+.DS_Store
+Thumbs.db

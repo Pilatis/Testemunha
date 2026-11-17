@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorAccent">#FFF2C230</item>
+        <item name="android:colorPrimary">#FF0A0C0F</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Invisible" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <color name="bg">#FF0A0C0F</color>
+    <string name="sc_audio">Gravar áudio</string>
+    <string name="sc_video">Gravar vídeo</string>
+    <string name="sc_photo">Tirar foto</string>
+</resources>

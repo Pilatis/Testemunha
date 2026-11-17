@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="audio" android:enabled="true" android:icon="@drawable/sc_mic"
+        android:shortcutShortLabel="@string/sc_audio" android:shortcutLongLabel="@string/sc_audio">
+        <intent android:action="com.testemunha.AUDIO" android:targetPackage="com.testemunha"
+            android:targetClass="com.testemunha.QuickActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="video" android:enabled="true" android:icon="@drawable/sc_video"
+        android:shortcutShortLabel="@string/sc_video" android:shortcutLongLabel="@string/sc_video">
+        <intent android:action="com.testemunha.VIDEO" android:targetPackage="com.testemunha"
+            android:targetClass="com.testemunha.QuickActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="photo" android:enabled="true" android:icon="@drawable/sc_camera"
+        android:shortcutShortLabel="@string/sc_photo" android:shortcutLongLabel="@string/sc_photo">
+        <intent android:action="com.testemunha.PHOTO" android:targetPackage="com.testemunha"
+            android:targetClass="com.testemunha.QuickActivity" />
+    </shortcut>
+</shortcuts>
